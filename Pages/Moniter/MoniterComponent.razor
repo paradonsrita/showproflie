@@ -1,0 +1,67 @@
+﻿@page "/monitor"
+@inject HttpClient Http
+
+<h3>Monitor</h3>
+
+@if (statistics != null)
+{
+    <table class="table table-dark mt-5">
+        <thead>
+            <tr>
+                <th>Queue ID</th>
+                <th>Queue Date</th>
+                <th>Queue Status</th>
+                <th>Queue Type</th>
+                <th>Queue Number</th>
+                <th>Counter</th>
+                <th>Source</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var stat in statistics)
+            {
+                <tr>
+                    <td>@stat.queue_id</td>
+                    <td>@stat.QueueDate.ToString("dd/MM/yyyy")</td>
+                    <td>@stat.QueueStatus</td>
+                    <td>@stat.QueueType</td>
+                    <td>@stat.QueueNumber</td>
+                    <td>@stat.Counter</td>
+                    <td>@stat.Source</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Loading...</p>
+}
+
+@code {
+    private List<StatisticModel> statistics;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            statistics = await Http.GetFromJsonAsync<List<StatisticModel>>("https://localhost:44328/api/Statistics/daily-statistics");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error loading statistics: {ex.Message}");
+        }
+    }
+
+    // Model ที่จะใช้ในการรับข้อมูล
+    public class StatisticModel
+    {
+        public int queue_id { get; set; }
+        public DateTime QueueDate { get; set; }
+        public string QueueStatus { get; set; }
+        public string QueueType { get; set; }
+        public string QueueNumber { get; set; }
+        public int? Counter { get; set; }
+        public string Source { get; set; }
+    }
+}
