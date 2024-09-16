@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Asus\\Downloads\\ShowProfile-master\\ShowProfile-master\\Copy3-ShowProfile\\QMS\\",
+  "WorkspaceRootPath": "C:\\Users\\LOQ\\Desktop\\LastShowProfile\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE27CAA5-165F-4E38-AE43-046442C2C853}|QMS.csproj|c:\\users\\asus\\downloads\\showprofile-master\\showprofile-master\\copy3-showprofile\\qms\\pages\\loginlogout\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE27CAA5-165F-4E38-AE43-046442C2C853}|QMS.csproj|solutionrelative:pages\\loginlogout\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE27CAA5-165F-4E38-AE43-046442C2C853}|QMS.csproj|c:\\users\\asus\\downloads\\showprofile-master\\showprofile-master\\copy3-showprofile\\qms\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE27CAA5-165F-4E38-AE43-046442C2C853}|QMS.csproj|solutionrelative:shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE27CAA5-165F-4E38-AE43-046442C2C853}|QMS.csproj|c:\\users\\asus\\downloads\\showprofile-master\\showprofile-master\\copy3-showprofile\\qms\\shared\\sidebar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CE27CAA5-165F-4E38-AE43-046442C2C853}|QMS.csproj|c:\\users\\loq\\desktop\\lastshowprofile\\shared\\sidebar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE27CAA5-165F-4E38-AE43-046442C2C853}|QMS.csproj|solutionrelative:shared\\sidebar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE27CAA5-165F-4E38-AE43-046442C2C853}|QMS.csproj|c:\\users\\asus\\downloads\\showprofile-master\\showprofile-master\\copy3-showprofile\\qms\\pages\\resetpassword\\resetpassword.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{CE27CAA5-165F-4E38-AE43-046442C2C853}|QMS.csproj|c:\\users\\loq\\desktop\\lastshowprofile\\pages\\loginlogout\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE27CAA5-165F-4E38-AE43-046442C2C853}|QMS.csproj|solutionrelative:pages\\loginlogout\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE27CAA5-165F-4E38-AE43-046442C2C853}|QMS.csproj|c:\\users\\loq\\desktop\\lastshowprofile\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE27CAA5-165F-4E38-AE43-046442C2C853}|QMS.csproj|solutionrelative:shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE27CAA5-165F-4E38-AE43-046442C2C853}|QMS.csproj|c:\\users\\loq\\desktop\\lastshowprofile\\pages\\resetpassword\\resetpassword.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE27CAA5-165F-4E38-AE43-046442C2C853}|QMS.csproj|solutionrelative:pages\\resetpassword\\resetpassword.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,39 +50,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Login.razor",
-              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\ShowProfile-master\\ShowProfile-master\\Copy3-ShowProfile\\QMS\\Pages\\LoginLogout\\Login.razor",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\LastShowProfile\\Pages\\LoginLogout\\Login.razor",
               "RelativeDocumentMoniker": "Pages\\LoginLogout\\Login.razor",
-              "ToolTip": "C:\\Users\\Asus\\Downloads\\ShowProfile-master\\ShowProfile-master\\Copy3-ShowProfile\\QMS\\Pages\\LoginLogout\\Login.razor",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\LastShowProfile\\Pages\\LoginLogout\\Login.razor",
               "RelativeToolTip": "Pages\\LoginLogout\\Login.razor",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAswE4AAAAcAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAswE4AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-13T07:51:26.629Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\ShowProfile-master\\ShowProfile-master\\Copy3-ShowProfile\\QMS\\Shared\\MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\LastShowProfile\\Shared\\MainLayout.razor",
               "RelativeDocumentMoniker": "Shared\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\Asus\\Downloads\\ShowProfile-master\\ShowProfile-master\\Copy3-ShowProfile\\QMS\\Shared\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\LastShowProfile\\Shared\\MainLayout.razor",
               "RelativeToolTip": "Shared\\MainLayout.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-13T07:49:51.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T07:49:51.322Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Sidebar.razor",
-              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\ShowProfile-master\\ShowProfile-master\\Copy3-ShowProfile\\QMS\\Shared\\Sidebar.razor",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\LastShowProfile\\Shared\\Sidebar.razor",
               "RelativeDocumentMoniker": "Shared\\Sidebar.razor",
-              "ToolTip": "C:\\Users\\Asus\\Downloads\\ShowProfile-master\\ShowProfile-master\\Copy3-ShowProfile\\QMS\\Shared\\Sidebar.razor",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\LastShowProfile\\Shared\\Sidebar.razor",
               "RelativeToolTip": "Shared\\Sidebar.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-13T07:48:16.238Z",
               "EditorCaption": ""
@@ -91,14 +90,13 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ResetPassword.razor",
-              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\ShowProfile-master\\ShowProfile-master\\Copy3-ShowProfile\\QMS\\Pages\\ResetPassword\\ResetPassword.razor",
+              "DocumentMoniker": "C:\\Users\\LOQ\\Desktop\\LastShowProfile\\Pages\\ResetPassword\\ResetPassword.razor",
               "RelativeDocumentMoniker": "Pages\\ResetPassword\\ResetPassword.razor",
-              "ToolTip": "C:\\Users\\Asus\\Downloads\\ShowProfile-master\\ShowProfile-master\\Copy3-ShowProfile\\QMS\\Pages\\ResetPassword\\ResetPassword.razor",
+              "ToolTip": "C:\\Users\\LOQ\\Desktop\\LastShowProfile\\Pages\\ResetPassword\\ResetPassword.razor",
               "RelativeToolTip": "Pages\\ResetPassword\\ResetPassword.razor",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAEIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-13T07:25:33.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T07:25:33.674Z"
             }
           ]
         }
